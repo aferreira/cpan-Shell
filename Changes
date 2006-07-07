@@ -1,0 +1,9 @@
+
+Revision history for Shell.
+
+0.6     Wed Jul 5 2006
+        - initial CPAN release
+
+undef   Thu Sep 22 1994
+        - Larry Wall posts to perl5-porters@isu.edu about
+          "a new module [he] just wrote": Shell.pm
