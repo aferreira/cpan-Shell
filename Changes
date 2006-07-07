@@ -1,6 +1,10 @@
 
 Revision history for Shell.
 
+0.7     Wed Jul 6 2006
+        - using closures rather than eval "string" (r466)
+        - tabs to spaces in sources (r468)
+
 0.6     Wed Jul 5 2006
         - initial CPAN release
 

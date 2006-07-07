@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Shell
-version:             0.6
+version:             0.7
 abstract:            run shell commands transparently within perl
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.30_01
