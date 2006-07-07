@@ -6,7 +6,7 @@ use File::Spec::Functions;
 
 our($capture_stderr, $raw, $VERSION, $AUTOLOAD);
 
-$VERSION = '0.7';
+$VERSION = '0.71';
 
 sub new { bless \my $foo, shift }
 sub DESTROY { }
@@ -40,6 +40,8 @@ use constant OS => $^O;
   $sub = $shell->_make_cmd($cmd);
 
 Creates a closure which invokes the system command C<$cmd>.
+
+=end private
 
 =cut
 

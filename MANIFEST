@@ -5,4 +5,7 @@ MANIFEST			This list of files
 
 Shell.pm
 t/Shell.t
+t/01_use.t
+t/99_pod.t
+
 META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,9 +1,14 @@
 
 Revision history for Shell.
 
-0.7     Wed Jul 6 2006
+0.71    Wed Jul 7 2006
+        - fixed POD: =begin private with no =end private
+        - new tests t/01_use.t and t/99_pod.t
+
+0.7     Wed Jul 6 2006 
         - using closures rather than eval "string" (r466)
         - tabs to spaces in sources (r468)
+        - (change #28502 to bleadperl)
 
 0.6     Wed Jul 5 2006
         - initial CPAN release
