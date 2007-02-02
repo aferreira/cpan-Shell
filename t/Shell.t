@@ -28,6 +28,8 @@ while ( -f $tmpfile ) {
 }
 END { -f $tmpfile && (open STDERR, '>&SAVERR' and unlink $tmpfile) }
 
+no warnings 'once'; 
+# no false warning about   Name "main::SAVERR" used only once: possible typo
 
 open(SAVERR, ">&STDERR");
 open(STDERR, ">$tmpfile");

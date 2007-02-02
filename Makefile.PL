@@ -13,7 +13,7 @@ WriteMakefile(
   ($] >= 5.005 ? (
     ABSTRACT_FROM => 'Shell.pm',
   ) : ()),
-  ($EUMM_VERSION >= 6.30_01 ? (
+  ($EUMM_VERSION >= 6.31 ? (
     LICENSE => 'perl', 
   ) :())
 

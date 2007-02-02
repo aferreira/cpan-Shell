@@ -1,4 +1,4 @@
-Shell version 0.71
+Shell version 0.72
 ==================
 
 NAME
@@ -28,15 +28,6 @@ Casey West and Wolfgang Laun.
 
 Extracted from core distribution for publishing on the CPAN 
 by Adriano Ferreira <ferreira@cpan.org>.
-
-BUGS
-
-F<Shell.t> emits the warning:
-
-  Name "main::SAVERR" used only once: possible typo
-
-which is untrue because SAVERR is used in C<open> arguments
-like C<">&SAVERR">.
 
 INSTALLATION
 

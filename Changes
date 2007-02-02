@@ -1,6 +1,10 @@
 
 Revision history for Shell.
 
+0.72    Fri Feb 2 2007
+        - no real change
+        - fixed test bug that produced false warning	
+
 0.71    Wed Jul 7 2006
         - fixed POD: =begin private with no =end private
         - new tests t/01_use.t and t/99_pod.t
