@@ -1,6 +1,9 @@
 
 Revision history for Shell.
 
+0.72_01 Wed Sep 30 2009
+        - sync with blead
+
 0.72    Fri Feb 2 2007
         - no real change
         - fixed test bug that produced false warning	
