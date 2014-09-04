@@ -6,7 +6,7 @@ my $EUMM_VERSION = eval $ExtUtils::MakeMaker::VERSION;
 WriteMakefile(
   NAME           => 'Shell',
   VERSION_FROM   => 'Shell.pm',
-  INSTALLDIRS    => 'perl',
+  INSTALLDIRS    => ($] >= 5.011 ? 'site' : 'perl'),
   PREREQ_PM      => {
     'Test::More' => 0,
   },
