@@ -15,6 +15,13 @@ WriteMakefile(
   ) : ()),
   ($EUMM_VERSION >= 6.31 ? (
     LICENSE => 'perl', 
-  ) :())
+  ) :()),
+  ($EUMM_VERSION > 6.4501 ? (
+    META_MERGE => {
+      resources => {
+        repository => 'http://github.com/aferreira/cpan-Shell',
+      }
+    },
+  ) : ()),
 
 );
