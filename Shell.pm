@@ -6,7 +6,7 @@ use File::Spec::Functions;
 
 our($capture_stderr, $raw, $VERSION, $AUTOLOAD);
 
-$VERSION = '0.72_01';
+$VERSION = '0.73';
 $VERSION = eval $VERSION;
 
 sub new { bless \my $foo, shift }

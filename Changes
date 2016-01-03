@@ -1,6 +1,10 @@
 
 Revision history for Shell.
 
+0.73    Sun Jan 3 2016
+        - INSTALLDIRS should be 'site' for Perl 5.11+ (CPAN #50729)
+        - fix podchecker warnings (CPAN #64924)
+
 0.72_01 Wed Sep 30 2009
         - sync with blead
 
